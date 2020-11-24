@@ -37,12 +37,13 @@
         <ul class="nav navbar-nav">
         <li><a href="html/C++/C++.html">C / C++</a></li>
         <li><a href="html/게임기획/게임기획.html">게임 기획</a></li>
-        <li><a href="html/게임프로그래밍/게임프로그래밍.html">게임 프로그래머</a></li>
+        <li><a href="html/게임프로그래머/게임프로그래머.html">게임 프로그래머</a></li>
         <li><a href="html/게임그래픽/게임그래픽.html">게임 그래픽</a></li>  
         </ul> 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="html/Games/Games.html">Games</a></li>
           <li><a href="html/Discord/Discord.html">Discord</a></li>
+          <li><a data-toggle="modal"data-target="#terms-usage"a href="">Help</a></li>
         </ul>
         <!-- 폼태그를 이용한 서칭창 -->
         <form class="navbar-form navbar-right">
@@ -105,18 +106,64 @@
     </ul>
   </div>  
 </div> 
+
 <!-- 9단길이의 첫번째 열 -->
   <div class="col-md-9">
     <div class="jumbotron">
     <h1>안녕하세요! <br> GGM URL HUB입니다.</h1>
     <p>
-      (주의! 폰허브 아님) 다양한 경기게임마이스터고의 URL들을 한곳에서 만나세요!
+      다양한 경기게임마이스터고의 URL들을 한곳에서 만나세요!
     </p>
-    <a class="btn btn-primary btn-large" href="#" role="button">Learn More</a>
+    <a class="btn btn-primary btn-large" href="#" role="button"data-toggle="modal"data-target="#LearnMore">Learn More</a>
     </div>
     </div>
   </div>
 </div>
+
+<!--Help의 팝업창-->
+<div class="modal modal-terms fade" id="terms-usage" tabindex="-1" role="dialog" aria-labelledby="terms-usageTitle" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="terms-usageTitle"><strong>도움을 주신 분들</strong></h5>
+    </button>
+    </div>
+    <div class="modal-body">
+      <div> 
+        <li> PalmCivet - (윤지성)</li>
+        <li> SirSirNo - (서선호)</li>
+      </div>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="modal modal-terms fade" id="LearnMore" tabindex="-1" role="dialog" aria-labelledby="LearnMoreTitle" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LearnMoreTitle"><strong>소개글</strong></h5>
+    </button>
+    </div>
+    <div class="modal-body">
+      <div> 
+        <p>안녕하세요! GGM URL HUB입니다.</p>
+        <p>이 홈페이지는 학교에 관련된 많은 URL들을 한번에 정리하기 위하여 만들어졌습니다.
+          기본적으로 경기게임마이스터고 관련 URL이 정리되어 있으며 학생들을 위하여 전공과 관련한 유용한 사이트들을 정리하였습니다
+          Games에서는 경기게임마이스터고 재학생들이 만든 게임들을 볼 수 있으며 Discord에서는 학교 내의 운영되고 있는 각양 각색의 서버들을 만나보실 수 있습니다.
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+    </div>
+  </div>
+  </div>
+</div>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
