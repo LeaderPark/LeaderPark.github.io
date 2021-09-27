@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -134,6 +134,14 @@
     <p>
       다양한 경기게임마이스터고의 URL들을 한곳에서 만나세요!
     </p>
+    <p>    
+      <div id="count">
+      </div>
+      <br>
+      <div id="count1">
+      </div>
+    </p>
+
     <a class="btn btn-primary btn-large" href="#" role="button"data-toggle="modal"data-target="#LearnMore">Learn More</a>
     </div>
     </div>
@@ -191,3 +199,25 @@
   <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+<script> 
+  var dday = new Date("October 01, 2021, 3:40:00").getTime();
+  
+  setInterval(function() {
+    var today = new Date().getTime();
+    var gap = dday - today;
+    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
+    var hour = Math.ceil((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var min = Math.ceil((gap % (1000 * 60 * 60)) / (1000 * 60));
+    var sec = Math.ceil((gap % (1000 * 60)) / 1000);
+  
+    var day1 = Math.ceil(gap / (1000));
+    var day2 = Math.ceil(gap / (1000 * 60));
+    var day3 = Math.ceil(gap / (1000 * 60 * 60));
+  
+    document.getElementById("count").innerHTML = "집간다! 까지 " + day + "일 " + hour + "시간 " + min + "분 " + sec + "초 남았습니다.";
+    document.getElementById("count1").innerHTML = "집간다! 까지 " + day1 + "초 "+ "남았습니다.";
+  }, 1000);
+  </script>
+  
