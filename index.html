@@ -207,14 +207,12 @@
   setInterval(function() {
     var today = new Date().getTime();
     var gap = dday - today;
-    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
+    var day = Math.ceil(gap / (1000 * 60 * 60 * 24) - 1);
     var hour = Math.ceil((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var min = Math.ceil((gap % (1000 * 60 * 60)) / (1000 * 60));
     var sec = Math.ceil((gap % (1000 * 60)) / 1000);
   
     var day1 = Math.ceil(gap / (1000));
-    var day2 = Math.ceil(gap / (1000 * 60));
-    var day3 = Math.ceil(gap / (1000 * 60 * 60));
   
     document.getElementById("count").innerHTML = "집간다! 까지 " + day + "일 " + hour + "시간 " + min + "분 " + sec + "초 남았습니다.";
     document.getElementById("count1").innerHTML = "집간다! 까지 " + day1 + "초 "+ "남았습니다.";
