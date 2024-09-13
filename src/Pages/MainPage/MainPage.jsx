@@ -95,7 +95,7 @@ const MainPage = () => {
           className={style.header_main_title}
           onClick={() => window.open(".", "_self")}
         >
-          GGM DATABASE
+          지누DB
         </div>
         {isDesktop ? (
           <div className={style.header_main_sign}>
@@ -118,7 +118,7 @@ const MainPage = () => {
           ref={(el) => (scrollRef.current[0] = el)}
         >
           <div className={style.main_center_banner_text}>
-            WELCOME TO GGM DATABASE
+            WELCOME TO 지누DB
           </div>
         </div>
         <div
@@ -133,7 +133,7 @@ const MainPage = () => {
               앞으로의 무한한 미래
             </div>
             <div className={style.sub_title_text_right}>
-              GGM DATABASE와 함께
+              지누DB와 함께
             </div>
           </div>
         </div>
@@ -192,7 +192,7 @@ const MainPage = () => {
             className={style.con_identity_content}
             ref={(el) => (scrollRef.current[3] = el)}
           >
-            <div className={style.footer_content_mainText}>GGM DATABASE</div>
+            <div className={style.footer_content_mainText}>지누DB</div>
             <div className={style.footer_content_subText}>
               GGM Social Summit © 2024
             </div>
