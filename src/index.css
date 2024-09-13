@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "PyeongChangPeace";
+  src: url("font/PyeongChangPeace_Light.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "PyeongChangPeace";
+  src: url("font/PyeongChangPeace_Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("font/Pretendard-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+  box-sizing: border-box;
+}
+
+input,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+textarea {
+  height: fit-content;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+}
+
+textarea::-webkit-scroll-bar {
+  display: none;
+}

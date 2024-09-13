@@ -1,0 +1,45 @@
+.s_light {
+  font-family: "PyeongChangPeace";
+  font-weight: 500;
+}
+
+.s_bold {
+  font-family: "PyeongChangPeace";
+  font-weight: 700;
+}
+
+.n_thin {
+  font-weight: 100;
+}
+
+.n_extralight {
+  font-weight: 200;
+}
+
+.n_light {
+  font-weight: 300;
+}
+
+.n_regular {
+  font-weight: 400;
+}
+
+.n_medium {
+  font-weight: 500;
+}
+
+.n_semibold {
+  font-weight: 600;
+}
+
+.n_bold {
+  font-weight: 700;
+}
+
+.n_extrabold {
+  font-weight: 800;
+}
+
+.n_black {
+  font-weight: 900;
+}
