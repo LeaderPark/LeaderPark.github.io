@@ -1,16 +1,4 @@
 @font-face {
-  font-family: "PyeongChangPeace";
-  src: url("font/PyeongChangPeace_Light.ttf") format("truetype");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "PyeongChangPeace";
-  src: url("font/PyeongChangPeace_Bold.ttf") format("truetype");
-  font-weight: 700;
-}
-
-@font-face {
   font-family: "Pretendard-Regular";
   src: url("font/Pretendard-Thin.ttf") format("truetype");
   font-weight: 100;
@@ -94,11 +82,13 @@ button {
   border: none;
   outline: none;
 }
+
 ul,
 li {
   padding: 0;
   margin: 0;
 }
+
 textarea {
   height: fit-content;
   outline: none;
