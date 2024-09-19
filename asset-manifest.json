@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d75f92f7.css",
-    "main.js": "/static/js/main.32b694cb.js",
+    "main.css": "/static/css/main.e42322d9.css",
+    "main.js": "/static/js/main.43f8b5a0.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Pretendard-Thin.ttf": "/static/media/Pretendard-Thin.23965237737042c7c087.ttf",
     "static/media/Pretendard-ExtraLight.ttf": "/static/media/Pretendard-ExtraLight.3a1f8545bfb6498f1f14.ttf",
@@ -13,15 +13,13 @@
     "static/media/Pretendard-Black.ttf": "/static/media/Pretendard-Black.6ffb4c1216878d939b7c.ttf",
     "static/media/Pretendard-Bold.ttf": "/static/media/Pretendard-Bold.be4e300c014733a8521f.ttf",
     "static/media/signup_background.png": "/static/media/signup_background.bee48bbcd47f983e9ac1.png",
-    "static/media/PyeongChangPeace_Bold.ttf": "/static/media/PyeongChangPeace_Bold.ab3ecf05dc148a912de3.ttf",
-    "static/media/PyeongChangPeace_Light.ttf": "/static/media/PyeongChangPeace_Light.7904d3e69c9b476d2315.ttf",
     "index.html": "/index.html",
-    "main.d75f92f7.css.map": "/static/css/main.d75f92f7.css.map",
-    "main.32b694cb.js.map": "/static/js/main.32b694cb.js.map",
+    "main.e42322d9.css.map": "/static/css/main.e42322d9.css.map",
+    "main.43f8b5a0.js.map": "/static/js/main.43f8b5a0.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d75f92f7.css",
-    "static/js/main.32b694cb.js"
+    "static/css/main.e42322d9.css",
+    "static/js/main.43f8b5a0.js"
   ]
 }
